@@ -1,0 +1,39 @@
+{
+  "species": "Botrytis cinerea",
+  "common_name": "grey mold",
+  "strategy": "pathogen",
+  "growth_rate": 180,
+  "tip_speed": 1.0,
+  "branching_interval": 20,
+  "branching_angle": 70,
+  "apical_dominance": 0.1,
+  "anastomosis_radius": 5,
+  "anastomosis_frequency": 0.2,
+  "substrate_preference": ["living_tissue", "senescent_tissue", "flower", "fruit"],
+  "enzyme_profile": {
+    "laccase": 0.2,
+    "lignin_peroxidase": 0.0,
+    "Mn_peroxidase": 0.0,
+    "cellulase": 0.7,
+    "xylanase": 0.6,
+    "oxalic_acid": 1.0,
+    "polygalacturonase": 0.9
+  },
+  "moisture_optimum": -0.2,
+  "temperature_optimum": 20,
+  "temperature_range": [0, 30],
+  "pH_optimum": 6.0,
+  "cord_forming": false,
+  "rhizomorph_diameter": null,
+  "bioluminescent": false,
+  "bioluminescence_wavelength": null,
+  "nutrient_flow_direction": "centrifugal",
+  "HET_loci_count": 3,
+  "competitive_strategy": "interference",
+  "visual": {
+    "primary_color": "#9A9DA1",
+    "secondary_color": "#676A6E",
+    "hyphal_thickness_px": 2.2,
+    "glow_radius": 0
+  }
+}

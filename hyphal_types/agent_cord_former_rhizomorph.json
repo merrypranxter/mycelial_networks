@@ -1,0 +1,37 @@
+{
+  "species": "Armillaria mellea",
+  "common_name": "honey fungus",
+  "strategy": "cord_former",
+  "growth_rate": 60,
+  "tip_speed": 0.6,
+  "branching_interval": 200,
+  "branching_angle": 30,
+  "apical_dominance": 0.8,
+  "anastomosis_radius": 30,
+  "anastomosis_frequency": 0.8,
+  "substrate_preference": ["woody_roots", "buried_wood", "soil"],
+  "enzyme_profile": {
+    "laccase": 0.5,
+    "lignin_peroxidase": 0.4,
+    "Mn_peroxidase": 0.3,
+    "cellulase": 0.6,
+    "xylanase": 0.5
+  },
+  "moisture_optimum": -0.6,
+  "temperature_optimum": 15,
+  "temperature_range": [2, 25],
+  "pH_optimum": 5.0,
+  "cord_forming": true,
+  "rhizomorph_diameter": 2000,
+  "bioluminescent": false,
+  "bioluminescence_wavelength": null,
+  "nutrient_flow_direction": "centripetal",
+  "HET_loci_count": 10,
+  "competitive_strategy": "exploitation",
+  "visual": {
+    "primary_color": "#2B1A10",
+    "secondary_color": "#F1E6D6",
+    "hyphal_thickness_px": 5.5,
+    "glow_radius": 0
+  }
+}
