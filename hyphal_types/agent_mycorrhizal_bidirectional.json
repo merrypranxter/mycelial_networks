@@ -1,0 +1,37 @@
+{
+  "species": "Suillus luteus",
+  "common_name": "slippery jack",
+  "strategy": "mycorrhizal",
+  "growth_rate": 45,
+  "tip_speed": 0.4,
+  "branching_interval": 120,
+  "branching_angle": 60,
+  "apical_dominance": 0.6,
+  "anastomosis_radius": 25,
+  "anastomosis_frequency": 0.5,
+  "substrate_preference": ["mineral_soil", "root_surface", "organic_horizon"],
+  "enzyme_profile": {
+    "laccase": 0.3,
+    "lignin_peroxidase": 0.0,
+    "Mn_peroxidase": 0.1,
+    "cellulase": 0.1,
+    "xylanase": 0.1
+  },
+  "moisture_optimum": -0.8,
+  "temperature_optimum": 18,
+  "temperature_range": [5, 28],
+  "pH_optimum": 5.5,
+  "cord_forming": true,
+  "rhizomorph_diameter": 180,
+  "bioluminescent": false,
+  "bioluminescence_wavelength": null,
+  "nutrient_flow_direction": "bidirectional",
+  "HET_loci_count": 6,
+  "competitive_strategy": "exploitation",
+  "visual": {
+    "primary_color": "#C98B45",
+    "secondary_color": "#8E6A3F",
+    "hyphal_thickness_px": 3.4,
+    "glow_radius": 0
+  }
+}

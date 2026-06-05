@@ -1,0 +1,37 @@
+{
+  "species": "Phanerochaete chrysosporium",
+  "common_name": "white rot fungus",
+  "strategy": "saprotroph",
+  "growth_rate": 120,
+  "tip_speed": 0.85,
+  "branching_interval": 40,
+  "branching_angle": 45,
+  "apical_dominance": 0.3,
+  "anastomosis_radius": 15,
+  "anastomosis_frequency": 0.7,
+  "substrate_preference": ["hardwood", "softwood", "lignin", "cellulose"],
+  "enzyme_profile": {
+    "laccase": 0.9,
+    "lignin_peroxidase": 0.95,
+    "Mn_peroxidase": 0.85,
+    "cellulase": 0.9,
+    "xylanase": 0.8
+  },
+  "moisture_optimum": -0.5,
+  "temperature_optimum": 37,
+  "temperature_range": [15, 42],
+  "pH_optimum": 4.5,
+  "cord_forming": false,
+  "rhizomorph_diameter": null,
+  "bioluminescent": false,
+  "bioluminescence_wavelength": null,
+  "nutrient_flow_direction": "centripetal",
+  "HET_loci_count": 8,
+  "competitive_strategy": "exploitation",
+  "visual": {
+    "primary_color": "#F5F0E6",
+    "secondary_color": "#D8C8AA",
+    "hyphal_thickness_px": 1.2,
+    "glow_radius": 0
+  }
+}

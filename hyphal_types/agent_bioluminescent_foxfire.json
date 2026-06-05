@@ -1,0 +1,40 @@
+{
+  "species": "Panellus stipticus",
+  "common_name": "bitter oyster",
+  "strategy": "saprotroph",
+  "growth_rate": 55,
+  "tip_speed": 0.5,
+  "branching_interval": 80,
+  "branching_angle": 50,
+  "apical_dominance": 0.4,
+  "anastomosis_radius": 20,
+  "anastomosis_frequency": 0.6,
+  "substrate_preference": ["hardwood", "dead_oak", "beech"],
+  "enzyme_profile": {
+    "laccase": 0.7,
+    "lignin_peroxidase": 0.5,
+    "Mn_peroxidase": 0.6,
+    "cellulase": 0.5,
+    "xylanase": 0.4
+  },
+  "moisture_optimum": -0.4,
+  "temperature_optimum": 22,
+  "temperature_range": [8, 32],
+  "pH_optimum": 4.8,
+  "cord_forming": false,
+  "rhizomorph_diameter": null,
+  "bioluminescent": true,
+  "bioluminescence_wavelength": 520,
+  "luciferase_type": "FMNH2-dependent",
+  "circadian_rhythm": true,
+  "peak_glow_hours": [22, 3],
+  "nutrient_flow_direction": "centripetal",
+  "HET_loci_count": 7,
+  "competitive_strategy": "passive",
+  "visual": {
+    "primary_color": "#F5FFF9",
+    "secondary_color": "#00FF80",
+    "hyphal_thickness_px": 1.8,
+    "glow_radius": 8
+  }
+}
